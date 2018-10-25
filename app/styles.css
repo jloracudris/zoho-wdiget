@@ -1,0 +1,48 @@
+body {
+    font-family: ProximaNovaRegular, sans-serif !important;
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.table th {
+    color: #777;
+    font-weight: normal!important;
+    font-size: .857rem;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    text-align: left;
+    border-bottom: 1px solid #f3f3f3 !important;
+    background-color: #f7f7f7;    
+}
+
+.table td {
+    border-bottom: 1px dotted #f5f5f5;
+    font-size: .929rem;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: left;
+    white-space: normal;
+    max-width: 350px;
+    text-overflow: initial;
+    word-wrap: break-word;
+    border-top: unset !important;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: unset !important;
+}
+
+table.dataTable tbody td.select-checkbox:before, table.dataTable tbody th.select-checkbox:before {
+    border: 1px solid #aaa !important; 
+    border-radius: 0% !important;
+}
+
+table.dataTable tr.selected td.select-checkbox:after, table.dataTable tr.selected th.select-checkbox:after {
+    color: #3d0af5 !important;
+    text-shadow: unset !important;
+}
